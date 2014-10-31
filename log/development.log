@@ -1,0 +1,548 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-29 23:31:14 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 56ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/bootstrap.
+Load paths:
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/images
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/javascripts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/stylesheets
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/templates
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/vendor/assets/javascripts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/vendor/assets/stylesheets
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/angular-rails-templates-0.1.3/vendor/assets/javascripts
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.1/lib/assets/javascripts
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components/bootstrap-sass-official/assets/stylesheets
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components/bootstrap-sass-official/assets/fonts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/vendor/assets/bower_components
+  (in /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>AngularRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4001135245822377151_70303634072180'
+
+
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-30 00:27:53 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/bootstrap.
+Load paths:
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/images
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/javascripts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/stylesheets
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/templates
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/vendor/assets/javascripts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/vendor/assets/stylesheets
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/angular-rails-templates-0.1.3/vendor/assets/javascripts
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.1/lib/assets/javascripts
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components/bootstrap-sass-official/assets/stylesheets
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components/bootstrap-sass-official/assets/fonts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/vendor/assets/bower_components
+  (in /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>AngularRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__12986027961847511_70182893835440'
+
+
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-30 00:27:56 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/bootstrap.
+Load paths:
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/images
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/javascripts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/stylesheets
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/templates
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/vendor/assets/javascripts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/vendor/assets/stylesheets
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/angular-rails-templates-0.1.3/vendor/assets/javascripts
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.1/lib/assets/javascripts
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components/bootstrap-sass-official/assets/stylesheets
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components/bootstrap-sass-official/assets/fonts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/vendor/assets/bower_components
+  (in /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/stylesheets/application.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>AngularRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:1
+  app/assets/stylesheets/application.css.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__12986027961847511_70182893835440'
+
+
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-30 00:29:19 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 2016ms (Views: 1996.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-30 00:29:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-30 00:29:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-30 00:29:21 -0700
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2014-10-30 00:29:21 -0700
+
+
+Started GET "/assets/angular-animate/angular-animate.js?body=1" for 127.0.0.1 at 2014-10-30 00:29:21 -0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2014-10-30 00:29:21 -0700
+
+
+Started GET "/assets/ng-app/app.js?body=1" for 127.0.0.1 at 2014-10-30 00:29:21 -0700
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2014-10-30 00:29:21 -0700
+
+
+Started GET "/assets/ng-app/controllers/home.js?body=1" for 127.0.0.1 at 2014-10-30 00:29:21 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-30 00:29:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-30 00:29:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-30 00:33:38 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 134ms (Views: 133.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-30 00:33:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:38 -0700
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:38 -0700
+
+
+Started GET "/assets/angular-animate/angular-animate.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:38 -0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:38 -0700
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:38 -0700
+
+
+Started GET "/assets/ng-app/app.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:38 -0700
+
+
+Started GET "/assets/ng-app/controllers/home.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:38 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:38 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-30 00:33:44 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 152ms (Views: 132.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-30 00:33:45 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:45 -0700
+
+
+Started GET "/assets/angular-animate/angular-animate.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:45 -0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:45 -0700
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:45 -0700
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:45 -0700
+
+
+Started GET "/assets/ng-app/app.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:45 -0700
+
+
+Started GET "/assets/ng-app/controllers/home.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:45 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-30 00:33:45 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-30 00:35:04 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 155ms (Views: 154.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-30 00:35:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-30 00:35:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-30 00:35:04 -0700
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2014-10-30 00:35:04 -0700
+
+
+Started GET "/assets/angular-animate/angular-animate.js?body=1" for 127.0.0.1 at 2014-10-30 00:35:04 -0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2014-10-30 00:35:04 -0700
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2014-10-30 00:35:04 -0700
+
+
+Started GET "/assets/ng-app/app.js?body=1" for 127.0.0.1 at 2014-10-30 00:35:04 -0700
+
+
+Started GET "/assets/ng-app/controllers/home.js?body=1" for 127.0.0.1 at 2014-10-30 00:35:04 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-30 00:35:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-30 00:35:04 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 225ms (Views: 206.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/angular-animate/angular-animate.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/ng-app/app.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/ng-app/controllers/home.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/dashboard/layout.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/dashboard/one.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/dashboard/three.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/dashboard/two.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/navbar.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-30 00:43:56 -0700
+
+
+Started GET "/dashboard/three" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"path"=>"dashboard/three"}
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 180ms (Views: 179.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/angular-animate/angular-animate.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/ng-app/app.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/ng-app/controllers/home.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/dashboard/layout.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/dashboard/one.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/dashboard/three.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/dashboard/two.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/navbar.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-30 17:22:21 -0700
+
+
+Started GET "/dashboard/three" for 127.0.0.1 at 2014-10-30 23:14:52 -0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"path"=>"dashboard/three"}
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 437ms
+
+ActionView::Template::Error (File to import not found or unreadable: glonals.
+Load paths:
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/images
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/javascripts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/stylesheets
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/templates
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/vendor/assets/javascripts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/vendor/assets/stylesheets
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/angular-rails-templates-0.1.3/vendor/assets/javascripts
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.1/lib/assets/javascripts
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components/bootstrap-sass-official/assets/stylesheets
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components/bootstrap-sass-official/assets/fonts
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/lib/assets/bower_components
+  /home/johnj/Projects/RoR/angular_rails_uiRouter/vendor/assets/bower_components
+  (in /home/johnj/Projects/RoR/angular_rails_uiRouter/app/assets/stylesheets/application.css.scss:2)):
+    2: <html>
+    3: <head>
+    4:   <title>AngularRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/ng-app/main.scss:2
+  app/assets/stylesheets/application.css.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__4147892081497964844_70232707408500'
+
+
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.9ms)
+
+
+Started GET "/dashboard/three" for 127.0.0.1 at 2014-10-30 23:15:03 -0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"path"=>"dashboard/three"}
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1230ms (Views: 1229.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/angular-animate/angular-animate.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/ng-app/app.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/ng-app/controllers/home.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/dashboard/layout.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/dashboard/one.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/dashboard/three.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/dashboard/two.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/navbar.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:04 -0700
+
+
+Started GET "/dashboard/three" for 127.0.0.1 at 2014-10-30 23:15:28 -0700
+
+SyntaxError (/home/johnj/Projects/RoR/angular_rails_uiRouter/app/controllers/application_controller.rb:17: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/application_controller.rb:17: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/johnj/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.7ms)
+
+
+Started GET "/dashboard/three" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+Processing by ApplicationController#index as HTML
+  Parameters: {"path"=>"dashboard/three"}
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 119ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/angular-animate/angular-animate.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/ng-app/app.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/ng-app/controllers/home.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/dashboard/layout.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/dashboard/one.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/dashboard/three.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/dashboard/two.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/navbar.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-30 23:15:45 -0700
